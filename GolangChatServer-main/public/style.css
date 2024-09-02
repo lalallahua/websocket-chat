@@ -1,0 +1,45 @@
+/* 设置 body 元素的样式 */
+body {
+    display: flex; /* 使用弹性布局 */
+    min-height: 100vh; /* 最小高度为视口高度的 100% */
+    flex-direction: column; /* 子元素按垂直方向排列 */
+}
+
+/* 设置 main 元素的样式 */
+main {
+    flex: 1 0 auto; /* 让 main 元素占据剩余空间 */
+}
+
+/* 设置 nav 元素的背景颜色 */
+nav {
+    background-color: #e9b000; /* 背景颜色为黄色 (#e9b000) */
+}
+
+/* 设置 footer 元素的背景颜色，并强制应用此样式 */
+footer {
+    background-color: #e9b000 !important; /* 背景颜色为黄色 (#e9b000)，强制应用此样式 */
+}
+
+/* 设置 input 元素在获得焦点时的样式 */
+input:focus {
+    border-bottom: 1px solid #008F95 !important; /* 底部边框为 1 像素实线，颜色为青绿色 (#008F95)，强制应用此样式 */
+}
+
+/* 设置 ID 为 chatMessages 的元素的样式 */
+#chatMessages {
+    color: #008F95; /* 文字颜色为青绿色 (#008F95) */
+    min-height: 10vh; /* 最小高度为视口高度的 10% */
+    height: 80vh; /* 高度为视口高度的 80% */
+    width: 100%; /* 宽度为 100% */
+    overflow-y: scroll; /* 内容超出高度时显示垂直滚动条 */
+}
+
+/* 设置 class 为 join-button 的元素的样式 */
+.join-button {
+    background-color: #008F95; /* 背景颜色为青绿色 (#008F95) */
+}
+
+/* 设置 class 为 join-button 的元素在获得焦点时的样式 */
+.join-button:focus {
+    background-color: #008F95; /* 背景颜色保持为青绿色 (#008F95) */
+}
